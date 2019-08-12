@@ -1,0 +1,57 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,700&display=swap');
+
+/* Colors */
+:root {
+  --bg-dark: #1c1c1c;
+  --color-light: #fff;
+}
+
+body {
+  background-color: var(--bg-dark);
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  color: var(--color-light);
+  letter-spacing: 0.1rem;
+}
+
+.bg-dark {
+  background-color: var(--bg-dark) !important;
+}
+
+.logo {
+  min-width: 160px;
+  max-width: 180px;
+}
+
+.navbar {
+  min-height: 5rem;
+}
+
+.nav-btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.modal {
+  background-color: var(--bg-dark);
+}
+
+.modal-content {
+  background-color: var(--bg-dark);
+  border: 0;
+}
+
+.close {
+  color: var(--color-light) !important;
+}
+
+.image {
+  background-image: url('../images/hero.jpg');
+  position: relative;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 600px;
+  height: 600px;
+}
